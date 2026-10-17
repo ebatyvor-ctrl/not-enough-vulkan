@@ -66,7 +66,7 @@ public class NotEnoughVulkanClientMod {
                     .addMixinOption("compat", true)
                     .addMixinOption("compat.bobby", packageExists("de.johni0702.minecraft.bobby"))
                     .addMixinOption("compat.skip_wayland_patches", true)
-                    .addMixinOption("compat.monitor_selector", true)
+                    
                     .addMixinOption(
                             "compat.force_x11",
                             NotEnoughVulkanClientMod.isVulkanModOlderThanOrEqual("0.6.5")
